@@ -406,6 +406,17 @@ footer p {
     font-weight: 400;
     font-size: 12px;
     line-height: 14.4px;
+    
+}
+
+a, A:visited, A:active, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: black;
 }
 
 address {
