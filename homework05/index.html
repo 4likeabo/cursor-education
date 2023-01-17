@@ -12,86 +12,95 @@
 </head>
 <body>
     <main class="main">
-        <div>
-            <table class="top_table">
-                <tr>
-                    <th>Name
-                        <i class="fa-light fa-sort-down"></i>
-                    </th>
-                    <th>Date</th>
-                    <th></th>
+        <div class="container">
+            <table class="table">
+                <tr class="tr-one">
+                    <td class="tr-one-td td-one">Name <i class="fa-solid fa-caret-down"></i></td>
+                    <td class="tr-one-td">Date</td>
+                    <td class="tr-one-td"></td>
                 </tr>
-                <tr>
-                    <td>File.pdf</td>
-                    <td>3 mins ago</td>
-                    <td>...</td>
+                <tr class="tr-second">
+                  <td class="td-second td-one">File.pdf</td>
+                  <td class="td-second">3 mins ago</td>
+                  <td class="td-second"><span>...</span></td>
                 </tr>
-                <tr>
-                    <td>File.pdf</td>
-                    <td class="text">Yesterday</td>
-                    <td class="elips">...</td>
+                <tr class="tr-second">
+                  <td class="td-second td-one">File.pdf</td>
+                  <td class="td-second">Yesterday</td>
+                  <td class="td-second"><span>...</span></td>
                 </tr>
-                <tr>
-                    <td>File.pdf</td>
-                    <td class="text">June 1st, 2019</td>
-                    <td class="elips">...</td>
+                <tr class="tr-second">
+                  <td class="td-second td-one">File.pdf</td>
+                  <td class="td-second">June 1st, 2019</td>
+                  <td class="td-second"><span>...</span></td>
                 </tr>
-            </table>
+              </table>
         </div>
-        <div class="middle">
-            <table>
-                <tr>
-                    <th><input type="checkbox"> Name <div class="triangle"></div></th>
-                    <th>Date</th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td class="checkbox"> <input type="checkbox"> File.pdf</td>
-                    <td class="text">3 mins ago</td>
-                    <td class="elipses">...</td>
-                </tr>
-                <tr>
-                    <td class="checkbox"><input type="checkbox"> File.pdf</td>
-                    <td class="text">Yesterday</td>
-                    <td class="elipses">...</td>
-                </tr>
-                <tr>
-                    <td class="checkbox"> <input type="checkbox"> File.pdf</td>
-                    <td class="text">June 1st, 2019</td>
-                    <td class="elipses">...</td>
-                </tr>
+        <div class="container">
+          <table class="table">
+              <tr class="tr-one">
+                <td class="tr-one-td td-one">
+                  <input type="checkbox" name="Name">
+                  <span>Name</span> <i class="fa-solid fa-caret-down">
+                </td>
+                <td class="tr-one-td">Date</td>
+                <td class="tr-one-td"></td>
+              </tr>
+              <tr class="tr-second">
+                <td class="td-second td-one">
+                  <input type="checkbox" name="file1">
+                  <span>File.pdf</span>
+                </td>
+                <td class="td-second">3 mins ago</td>
+                <td class="td-second"><span>...</span></td>
+              </tr>
+              <tr class="tr-second">
+                <td class="td-second td-one">
+                  <input type="checkbox" name="file2">
+                  <span>File.pdf</span>
+                </td>
+                <td class="td-second">Yesterday</td>
+                <td class="td-second"><span>...</span></td>
+              </tr>
+              <tr class="tr-second">
+                <td class="td-second td-one">
+                  <input type="checkbox" name="file3">
+                  <span>File.pdf</span>
+                </td>
+                <td class="td-second">June 1st, 2019</td>
+                <td class="td-second"><span>...</span></td>
+              </tr>
             </table>
-        </div>
-        <div class="bottom">
-            <table>
-                <tr>
-                    <th>Name <div class="triangle"></div></th>
-                    <th>Date</th>
-                    <th>
-                        <div class="search">
-                            <img src="./img/search.png" class="icon-search" alt="search"> <input type="text" placeholder="Search">
-                        </div>
-                         
-                    </th>
-                </tr>
-                <tr>
-                    <td><i class="fa-light fa-box-archive"></i></td>
-                    <td class="text">3 mins ago</td>
-                    <td  class="elipses">...</td>
-                </tr>
-                <tr>
-                    <td><i class="fa-light fa-box-archive"></i></td>
-                    <td class="text">Yesterday</td>
-                    <td class="elipses">...</td>
-                </tr>
-                <tr>
-                    <td><i class="fa-light fa-box-archive"></i></td>
-                    <td class="text">June 1st, 2019</td>
-                    <td class="elipses">...</td>
-                </tr>
-            </table>
-        </div>
+      </div>
+      <div class="container">
+        <table class="table">
+            <tr class="tr-one">
+              <td class="tr-one-td td-one">Name <i class="fa-solid fa-caret-down"></td>
+              <td class="tr-one-td">Date</td>
+              <td class="tr-one-td">
+                <div class="search_field">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input type="text" placeholder="Search" name="search">
+                </div>
+              </td>
+            </tr>
+            <tr class="tr-second">
+              <td class="td-second td-one"><i class="fa-sharp fa-solid fa-box-archive"></i> File.pdf</td>
+              <td class="td-second">3 mins ago</td>
+              <td class="td-second"><span>...</span></td>
+            </tr>
+            <tr class="tr-second">
+              <td class="td-second td-one"><i class="fa-sharp fa-solid fa-box-archive"></i> File.pdf</td>
+              <td class="td-second">Yesterday</td>
+              <td class="td-second"><span>...</span></td>
+            </tr>
+            <tr class="tr-second">
+              <td class="td-second td-one"><i class="fa-sharp fa-solid fa-box-archive"></i> File.pdf</td>
+              <td class="td-second">June 1st, 2019</td>
+              <td class="td-second"><span>...</span></td>
+            </tr>
+          </table>
+    </div>
     </main>
-    <footer class="footer"></footer>
 </body>
 </html>
